@@ -6,8 +6,9 @@
   line-height: 29px;
   color: #000000;
   margin: 25px 15px 31px 21px;
-  width: 246px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  
 }
+

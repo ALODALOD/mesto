@@ -6,5 +6,14 @@
   width: 24px;
   height: 24px;
   align-self: flex-end;
- 
+  padding: 0;
+  border: 0;
+}
+
+@media screen and (max-width: 767px){
+  .profile__edit-button{
+    width: 18px;
+    height: 18px;
+
+}
 }
