@@ -3,6 +3,7 @@
   min-height: 120px;
   margin: 40px auto 0;
   display: flex;
+  line-height: 0;
   
 }
 

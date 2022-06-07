@@ -1,7 +1,6 @@
 .elements__card{
- max-width: 282px;
- height: 361px;
+ line-height: 0;
  background: #FFFFFF;
  border-radius: 10px;
- 
+ padding-bottom: 31px;
 }
