@@ -30,7 +30,7 @@ popup.addEventListener('click', function(e) {
     closePopup();
   }
 });
-//функция сохранения введённых данных попапа
+//функция сохранения введённых данных и закрытия попапа
 function submitPopup(){
   profileName.textContent = inputName.value;
   profileSubtitle.textContent = inputSubtitle.value;
