@@ -6,8 +6,8 @@ const popupCloseButton = document.querySelector('.popup__close-button ');
 const profileName = document.querySelector('.profile__name');
 const profileSubtitle = document.querySelector('.profile__subtitle');
 const popupSubmitButton = document.querySelector('.popup__submit-button');
-const inputName = document.querySelector('.popup__field_input__name');
-const inputSubtitle = document.querySelector('.popup__field_input__subtitle');
+const inputName = document.querySelector('.popup__field_input_name');
+const inputSubtitle = document.querySelector('.popup__field_input_subtitle');
 // функция открытия попапа
 function openPopup(){
   popup.classList.add('popup__hidden');
