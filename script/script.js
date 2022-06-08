@@ -10,15 +10,19 @@ const inputName = document.querySelector('.popup__field_input_name');
 const inputSubtitle = document.querySelector('.popup__field_input_subtitle');
 // функция открытия попапа
 function openPopup(){
-  popup.classList.add('popup__hidden');
+  popup.classList.add('popup_hidden');
+  inputName.value = profileName.textContent;
+  inputSubtitle.value = profileSubtitle.textContent;
 }
 // функция закрытия попапа
 function closePopup(){
-  popup.classList.remove('popup__hidden');
+  popup.classList.remove('popup_hidden');
+
 }
 //по клику на кнопку редактировать открывается попап
 profileEditButton.addEventListener('click', function() {
   openPopup();
+  
 });
 //по клику на крестик попап закрывается
 popupCloseButton.addEventListener('click', function() {
@@ -34,7 +38,7 @@ popup.addEventListener('click', function(e) {
 function submitPopup(){
   profileName.textContent = inputName.value;
   profileSubtitle.textContent = inputSubtitle.value;
-  popup.classList.remove('popup__hidden');
+  popup.classList.remove('popup_hidden');
 }
 //по клику на кнопку сохранить - данные сохраняются - попап закрывается
 popupSubmitButton.addEventListener('click', function() {
